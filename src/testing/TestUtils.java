@@ -195,7 +195,7 @@ public class TestUtils extends Mod{
     }
 
     public static boolean disableCampaign(){
-        return state.isCampaign() && !(OS.username.equals("MEEP") && settings.getBool("tu-meep-privileges"));
+        return false && !(OS.username.equals("MEEP") && settings.getBool("tu-meep-privileges"));
     }
 
     public static boolean disableServer(){
